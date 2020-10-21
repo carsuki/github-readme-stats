@@ -253,7 +253,7 @@ const themes = {
   },
   carsuki: {
     title_color: "ffffff",
-    icon_color: "ffffff",
+    icon_color: "E82100",
     text_color: "ffffff",
     bg_color: "000000"
   }
