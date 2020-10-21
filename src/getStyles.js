@@ -64,7 +64,7 @@ const getStyles = ({
       font-display: swap;
     }
     .header {
-      font-family: 'CyberpunkWaifus', sans-serif;
+      font: 400 18px 'CyberpunkWaifus', sans-serif;
     }
     .stat {
       font: 14px 'CyberpunkWaifus', sans-serif; fill: ${textColor};
