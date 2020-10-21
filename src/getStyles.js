@@ -63,15 +63,18 @@ const getStyles = ({
       src: url("https://carsuki.moe/font/CyberpunkWaifus.woff");
       font-display: swap;
     }
+    .header {
+      font-family: 'CyberpunkWaifus', sans-serif;
+    }
     .stat {
-      font: 14px 'CyberpunkWaifus', Ubuntu, "Helvetica Neue", Sans-Serif; fill: ${textColor};
+      font: 14px 'CyberpunkWaifus', sans-serif; fill: ${textColor};
     }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 24px 'CyberpunkWaifus', Ubuntu, Sans-Serif; fill: ${textColor}; 
+      font: 24px 'CyberpunkWaifus', sans-serif; fill: ${textColor}; 
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     
