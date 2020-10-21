@@ -52,15 +52,26 @@ const getStyles = ({
   progress,
 }) => {
   return `
+    @font-face {
+      font-family: Micro Sans;
+      src: url("https://carsuki.moe/font/micro-sans.ttf");
+      font-display: swap;
+    }
+  
+    @font-face {
+      font-family: CyberpunkWaifus;
+      src: url("https://carsuki.moe/font/CyberpunkWaifus.woff");
+      font-display: swap;
+    }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: ${textColor};
+      font: 14px 'CyberpunkWaifus', Ubuntu, "Helvetica Neue", Sans-Serif; fill: ${textColor};
     }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: ${textColor}; 
+      font: 24px 'CyberpunkWaifus', Ubuntu, Sans-Serif; fill: ${textColor}; 
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     
