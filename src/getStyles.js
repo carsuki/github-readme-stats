@@ -78,7 +78,7 @@ const getStyles = ({
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     
-    .bold { font-weight: 700 }
+    .bold { font-weight: 400 }
     .icon {
       fill: ${titleColor};
       display: ${!!show_icons ? "block" : "none"};
