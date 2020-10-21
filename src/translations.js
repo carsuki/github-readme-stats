@@ -5,7 +5,7 @@ const statCardLocales = ({ name, apostrophe }) => {
     "statcard.title": {
       cn: `${encodeHTML(name)} 的 GitHub 统计`,
       de: `${encodeHTML(name) + apostrophe} GitHub-Statistiken`,
-      en: `${encodeHTML(name)}'${apostrophe} GitHub Stats`,
+      en: `${encodeHTML(name)}'${apostrophe} stats`,
       es: `Estadísticas de GitHub de ${encodeHTML(name)}`,
       fr: `Statistiques GitHub de ${encodeHTML(name)}`,
       it: `Statistiche GitHub di ${encodeHTML(name)}`,
@@ -17,7 +17,7 @@ const statCardLocales = ({ name, apostrophe }) => {
     "statcard.totalstars": {
       cn: "总 Star",
       de: "Sterne Insgesamt",
-      en: "Total Stars",
+      en: "total stars",
       es: "Estrellas totales",
       fr: "Total d'étoiles",
       it: "Stelle totali",
@@ -29,7 +29,7 @@ const statCardLocales = ({ name, apostrophe }) => {
     "statcard.commits": {
       cn: "总提交",
       de: "Anzahl Commits",
-      en: "Total Commits",
+      en: "total commits",
       es: "Compromisos totales",
       fr: "Total des engagements",
       it: "Commit totali",
@@ -41,7 +41,7 @@ const statCardLocales = ({ name, apostrophe }) => {
     "statcard.prs": {
       cn: "总 PR",
       de: "PRs Insgesamt",
-      en: "Total PRs",
+      en: "total PRs",
       es: "RP totales",
       fr: "Total des PR",
       it: "PR totali",
@@ -53,7 +53,7 @@ const statCardLocales = ({ name, apostrophe }) => {
     "statcard.issues": {
       cn: "总 Issue",
       de: "Anzahl Issues",
-      en: "Total Issues",
+      en: "total issues",
       es: "Problemas totales",
       fr: "Nombre total de problèmes",
       it: "Segnalazioni totali",
@@ -65,7 +65,7 @@ const statCardLocales = ({ name, apostrophe }) => {
     "statcard.contribs": {
       cn: "总贡献",
       de: "Beigetragen zu",
-      en: "Contributed to",
+      en: "contributed to",
       es: "Contribuido a",
       fr: "Contribué à",
       it: "Ha contribuito a",
@@ -81,7 +81,7 @@ const repoCardLocales = {
   "repocard.template": {
     cn: "模板",
     de: "Vorlage",
-    en: "Template",
+    en: "template",
     es: "Modelo",
     fr: "Modèle",
     it: "Template",
@@ -93,7 +93,7 @@ const repoCardLocales = {
   "repocard.archived": {
     cn: "已归档",
     de: "Archiviert",
-    en: "Archived",
+    en: "archived",
     es: "Archivé",
     fr: "Archivé",
     it: "Archiviata",
@@ -108,7 +108,7 @@ const langCardLocales = {
   "langcard.title": {
     cn: "最常用的语言",
     de: "Meist verwendete Sprachen",
-    en: "Most Used Languages",
+    en: "most used languages",
     es: "Idiomas más usados",
     fr: "Langues les plus utilisées",
     it: "Linguaggi più utilizzati",
@@ -123,7 +123,7 @@ const wakatimeCardLocales = {
   "wakatimecard.title": {
     cn: "Wakatime 周统计",
     de: "Wakatime Wochen Status",
-    en: "Wakatime Week Stats",
+    en: "wakatime week stats",
     es: "Estadísticas de la semana de Wakatime",
     fr: "Statistiques de la semaine Wakatime",
     it: "Statistiche della settimana di Wakatime",
@@ -135,7 +135,7 @@ const wakatimeCardLocales = {
   "wakatimecard.nocodingactivity": {
     cn: "本周没有编程活动",
     de: "Keine Aktivitäten in dieser Woche",
-    en: "No coding activity this week",
+    en: "no coding activity this week",
     es: "No hay actividad de codificación esta semana",
     fr: "Aucune activité de codage cette semaine",
     it: "Nessuna attività in questa settimana",
